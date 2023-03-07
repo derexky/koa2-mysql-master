@@ -15,4 +15,4 @@ const upload = multer({ storage })
 
 export const single = fieldName => upload.single(fieldName)
 
-// export const array = (fieldName, maxCount) => upload.array(fieldName, maxCount)
+export const array = (fieldName, maxCount) => upload.array(fieldName, maxCount)
